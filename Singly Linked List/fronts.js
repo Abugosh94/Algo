@@ -43,7 +43,6 @@ class SLL{
             this.head = new_node;
         }
         while(current.next!=null){
-            console.log("here")
             current = current.next;
         }
         current.next = new_node;
@@ -57,9 +56,9 @@ SLL1.addFront(5);
 SLL1.addFront(73);
 console.log(SLL1);
 console.log(SLL1.front());
-
+SLL1.removeFront();
 console.log(SLL1.front());
-
+SLL1.removeFront();
 console.log(SLL1.front());
 SLL1.addTail(5);
 console.log(SLL1);
