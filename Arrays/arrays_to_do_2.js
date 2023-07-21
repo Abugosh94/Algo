@@ -106,7 +106,6 @@ console.log(filterRange([51,6,9,7,57,32,14,6,87,3], 57,6));
 
 function arrConcat(arr, arr2){
     newArr=[];
-    newArrlength = arr.length + arr2.length;
     i = 0;
     j = 0;
     while (i<arr.length){
