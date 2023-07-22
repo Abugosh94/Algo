@@ -49,7 +49,6 @@ class SLL{
     }
 }
 
-
 SLL1 = new SLL();
 SLL1.addFront(18);
 SLL1.addFront(5);
